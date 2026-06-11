@@ -489,7 +489,7 @@ export default function SiteScribe() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-x-hidden bg-zinc-950 text-zinc-100">
+    <main id="main-content" className="relative min-h-screen overflow-x-hidden bg-zinc-950 text-zinc-100" role="main">
       <BackgroundGrid />
 
       <div className="relative z-10 mx-auto flex max-w-[1800px] flex-col gap-4 p-4 lg:p-6">
